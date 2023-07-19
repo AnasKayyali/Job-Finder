@@ -1,6 +1,6 @@
 import { React, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
-import { useStore } from '../Store/useStore';
+import { useStore } from '../store/useStore';
 import { Divider } from 'antd'
 import { AiOutlineEye } from 'react-icons/ai' 
 import { AiOutlineEyeInvisible } from 'react-icons/ai' 

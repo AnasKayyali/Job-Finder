@@ -1,11 +1,11 @@
 import { QueryClientProvider, QueryClient } from "react-query"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import SearchBar from "./Components/SearchBar"
-import Navbar from "./Components/Navbar"
-import JobDetails from "./Components/JobDetails"
-import WantLogin from "./Components/WantLogin"
-import SignUp from "./Components/SignUp"
-import WantPostJob from "./Components/WantPostJob"
+import SearchBar from "./main/SearchBar"
+import Navbar from "./navbar/Navbar"
+import JobDetails from "./main/JobDetails"
+import WantLogin from "./auth/WantLogin"
+import SignUp from "./signup/Signup"
+import WantPostJob from "./auth/WantPostJob"
 
 const queryClient = new QueryClient()
 

@@ -1,7 +1,7 @@
 import { React } from 'react'
-import  Selecter  from './Selecter'
+import  Selecter  from '../libs/Selecter'
 import { Input, notification } from 'antd' 
-import { useStore } from '../Store/useStore'
+import { useStore } from '../store/useStore'
 import { useMutation, useQueryClient } from 'react-query'
 import axios from 'axios'
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useQuery } from 'react-query'
 import axios from 'axios'
-import { useStore } from '../Store/useStore'
+import { useStore } from '../store/useStore'
 
 
 const fetchJobs = (detailsId) => {

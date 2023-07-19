@@ -1,6 +1,6 @@
 import React from 'react'
 import { Select } from 'antd'
-import { useStore } from '../Store/useStore'
+import { useStore } from '../store/useStore'
 
 const Selecter = ({ placeholder, number, selecter }) => {  
 

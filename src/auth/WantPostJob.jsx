@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navigate } from 'react-router-dom'
-import { useStore } from '../Store/useStore'
-import PostJob from "./PostJob"
+import { useStore } from '../store/useStore'
+import PostJob from "../post/PostJob"
 
 const WantPostJob = () => {
     const item = useStore((state) => state.item)

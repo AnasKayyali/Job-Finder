@@ -2,7 +2,7 @@ import { Divider, Button, Drawer } from 'antd'
 import { React, useState } from 'react'
 import { AiOutlineBars } from 'react-icons/ai'
 import { NavLink, Link } from 'react-router-dom'
-import { useStore } from '../Store/useStore'
+import { useStore } from '../store/useStore'
 
 const Navbar = () => {
 

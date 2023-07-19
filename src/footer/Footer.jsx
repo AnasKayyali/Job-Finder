@@ -5,7 +5,7 @@ import { AiFillInstagram } from 'react-icons/ai'
 import { AiFillTwitterCircle } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
-const Tail = () => {
+const Footer = () => {
   return (
     <>
     <div className="grid bg-blue-500 mt-10 py-10 px-24 gap-y-20">
@@ -70,4 +70,4 @@ const Tail = () => {
   )
 }
 
-export default Tail
+export default Footer

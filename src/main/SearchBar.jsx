@@ -1,8 +1,9 @@
 import  React  from 'react'
-import  Selecter  from './Selecter'
-import  ViewSection  from './ViewSection'
-import  { Results }  from './Results' 
-import Tail from './Tail'
+import  Selecter  from '../libs/Selecter'
+import  Home  from '../home/Home'
+import  { Results }  from '../main/Results' 
+import Footer from '../footer/Footer'
+
 
 const SearchBar = () => {
 
@@ -61,7 +62,7 @@ const SearchBar = () => {
 
     return (
         <>
-          <ViewSection />
+          <Home />
           <div className="flex justify-center mt-4">
             <h1 className="flex justify-center bg-blue-500 text-white py-2 w-40 border border-transparent rounded-t-md text-lg" style={{fontFamily:'Cuprum'}}>Search Bar</h1>
           </div>        
@@ -70,7 +71,7 @@ const SearchBar = () => {
             <Selecter placeholder='search for jop location' number={2} selecter={selecter2} />
           </div>     
           <Results />
-          <Tail />
+          <Footer />
         </>
   )
 }

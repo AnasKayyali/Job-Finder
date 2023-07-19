@@ -1,8 +1,8 @@
-import Card from "./Card"
+import Card from "../libs/Card"
 import { React } from "react"
 import { useQuery } from 'react-query'
 import axios from 'axios'
-import { useStore } from "../Store/useStore";
+import { useStore } from "../store/useStore";
 
 const fetchJobs = () => {
   return axios.get('https://job-finder-json-server.onrender.com/jobs')  

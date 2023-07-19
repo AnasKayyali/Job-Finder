@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ViewSection = () => {
+const Home = () => {
   return (
     <div>
         <div className="grid mt-20 mb-20 bg-white drop-shadow-lg py-8 xs:grid-cols-1 md:grid-cols-2">
@@ -15,4 +15,4 @@ const ViewSection = () => {
   )
 }
 
-export default ViewSection
+export default Home

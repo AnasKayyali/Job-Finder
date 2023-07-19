@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navigate } from 'react-router-dom';
-import { useStore } from '../Store/useStore'
-import Login from './Login';
+import { useStore } from '../store/useStore'
+import Login from '../login/Login';
 
 const WantLogin = () => {
     const item = useStore((state) => state.item)
